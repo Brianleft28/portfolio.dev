@@ -279,7 +279,7 @@ export const projects: Project[] = [
         `,
       href: 'https://www.google.com',
       badge: ['Node', 'Exceljs', 'Inquirer', 'MySQL'],
-      github: '',
+      github: 'https://github.com/Brianleft28/migracion',
       img: [migracion, migracion1, migracion2],
     },
     en: {
@@ -298,7 +298,7 @@ export const projects: Project[] = [
         `,
       href: 'https://www.google.com',
       badge: ['Node', 'Exceljs', 'Inquirer', 'MySQL'],
-      github: '',
+      github: 'https://github.com/Brianleft28/migracion',
       img: [migracion, migracion1, migracion2],
 
     }
