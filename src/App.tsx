@@ -11,10 +11,10 @@ import Education from './pages/Education';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/portfolio.dev">
         <Layout>
           <Routes>
-            <Route path="/porfolio_react_typescript" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/projects/:key" element={<ProjectDetails />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/education" element={<Education />} />
