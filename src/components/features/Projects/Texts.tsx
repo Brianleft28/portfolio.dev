@@ -25,6 +25,10 @@ import fotografia1 from '../../../img/fotografia/foto1.png';
 import fotografia2 from '../../../img/fotografia/foto2.png';
 import fotografia3 from '../../../img/fotografia/foto3.png';
 
+import migracion from '../../../img/migracion/migracion.png';
+import migracion1 from '../../../img/migracion/migracion1.png';
+import migracion2 from '../../../img/migracion/migracion2.png';
+
 export const texts = {
   en: {
     title: {
@@ -257,4 +261,46 @@ export const projects: Project[] = [
       img: [fotografia, fotografia1, fotografia2, fotografia3],
     },
   },
+  {
+    es: {
+      id: 5,
+      key: 5,
+      category: 'backend',
+      title: 'Automatizando Migración de Datos',
+      description:
+       ` 
+        En el mundo de la gestión de datos, la eficiencia y la precisión son clave. Este proyecto, titulado Migración Mensual de Beneficiarios, aborda precisamente estos desafíos al automatizar la migración de datos de beneficiarios desde archivos Excel a una base de datos MySQL. 
+        El proyecto se diseñó para leer datos desde archivos Excel, formatearlos adecuadamente y migrarlos a una base de datos MySQL.      
+        Para llevar a cabo este proyecto, se utilizaron varias tecnologías y librerías. Node.js, como entorno de ejecución para JavaScript en el servidor.
+        MySQL, como sistema de gestión de bases de datos relacional.
+        ExcelJS fue la librería para leer, manipular y escribir archivos Excel.
+        Inquirer es la librería para crear interfaces de usuario interactivas en la línea de comandos.
+        Chalk es una librería para estilizar la salida en la consola.        
+        `,
+      href: 'https://www.google.com',
+      badge: ['Node', 'Exceljs', 'Inquirer', 'MySQL'],
+      github: 'https://github.com/Brianleft28/migracion',
+      img: [migracion, migracion1, migracion2],
+    },
+    en: {
+      id: 5,
+      key: 5,
+      category: 'backend',
+      title: 'Automating Data Migration',
+      description:
+        `In the world of data management, efficiency and accuracy are key. This project, titled Monthly Beneficiary Migration, addresses precisely these challenges by automating the migration of beneficiary data from Excel files to a MySQL database.
+        The project was designed to read data from Excel files, format it properly, and migrate it to a MySQL database.
+        To carry out this project, several technologies and libraries were used. Node.js, as the runtime environment for JavaScript on the server.
+        MySQL, as a relational database management system.
+        ExcelJS was the library for reading, manipulating, and writing Excel files.
+        Inquirer is the library for creating interactive user interfaces on the command line.
+        Chalk is a library for styling the output in the console.
+        `,
+      href: 'https://www.google.com',
+      badge: ['Node', 'Exceljs', 'Inquirer', 'MySQL'],
+      github: 'https://github.com/Brianleft28/migracion',
+      img: [migracion, migracion1, migracion2],
+
+    }
+  }
 ];

@@ -499,7 +499,7 @@ export const skills: Skill[] = [
   },
   {
     es: {
-      id: 4,
+      id: 14,
       name: 'Otros',
       description:
         'Habilidades adicionales y herramientas que complementan mi perfil profesional.',
@@ -522,7 +522,7 @@ export const skills: Skill[] = [
       ],
     },
     en: {
-      id: 4,
+      id: 14,
       name: 'Others',
       description:
         'Additional skills and tools that complement my professional profile.',
