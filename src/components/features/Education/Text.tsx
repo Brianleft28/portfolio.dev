@@ -143,7 +143,25 @@ export const certificates: Certificate[] = [
         link: "https://platzi.com/p/contactobrianleft/curso/2879-typescript-tipos-avanzados/diploma/detalle/",
         logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s'
     },
-
-  }
-   
+},
+    {
+        es: {
+            id: 6,
+            name: "Curso de C#",
+            institution: "Platzi",
+            date: "2024",
+            description: "En este curso aprendí los fundamentos de C#, un lenguaje de programación orientado a objetos desarrollado por Microsoft. Aprendí a utilizar C# en proyectos de consola, a trabajar con clases, interfaces, y a utilizar librerías y namespaces.",
+            link: "https://platzi.com/p/contactobrianleft/curso/2879-typescript-tipos-avanzados/diploma/detalle/",
+            logo: 'https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/'
+        },
+        en: {
+            id: 6,
+            name: "C# Course",
+            institution: "Platzi",
+            date: "2024",
+            description: "In this course, I learned the fundamentals of C#, an object-oriented programming language developed by Microsoft. I learned to use C# in console projects, work with classes, interfaces, and use libraries and namespaces.",
+            link: "https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/",
+            logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s'
+        }
+    }   
 ]
