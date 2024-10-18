@@ -152,7 +152,7 @@ export const certificates: Certificate[] = [
             date: "2024",
             description: "En este curso aprendí los fundamentos de C#, un lenguaje de programación orientado a objetos desarrollado por Microsoft. Aprendí a utilizar C# en proyectos de consola, a trabajar con clases, interfaces, y a utilizar librerías y namespaces.",
             link: "https://platzi.com/p/contactobrianleft/curso/2879-typescript-tipos-avanzados/diploma/detalle/",
-            logo: 'hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s'
+            logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s'
         },
         en: {
             id: 6,
