@@ -285,6 +285,22 @@ export const skills: Skill[] = [
           img: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png',
         },
         {
+          id: 100,
+          name: 'C#',
+          description:
+            'Desarrollo aplicaciones de consola en C# con una buena base en los fundamentos de POO y estructuras de datos.',
+          img: 'https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp',
+          subSkills: [
+            {
+              id: 101,
+              name: 'Fundamentos de POO',
+              description:
+                'Manejo de clases, objetos, herencia, polimorfismo, encapsulamiento y abstracción en C#.',
+              subSkills: [],
+            },
+          ],
+        },
+        {
           id: 3,
           name: 'Base de Datos',
           description:
@@ -432,6 +448,22 @@ export const skills: Skill[] = [
             },
           ],
           img: 'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png',
+        },
+        {
+          id: 100,
+          name: 'C#',
+          description:
+            'Development of console applications in C# with a good foundation in OOP fundamentals and data structures.',
+          img: 'https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp',
+          subSkills: [
+            {
+              id: 101,
+              name: 'OOP Fundamentals',
+              description:
+                'Handling classes, objects, inheritance, polymorphism, encapsulation, and abstraction in C#.',
+              subSkills: [],
+            },
+          ],
         },
         {
           id: 3,
