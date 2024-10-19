@@ -47,7 +47,7 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 1,
-      name: 'Curso de C#',
+      name: 'Fundamentos de C#',
       category: 'Desarrollo de Software',
       institution: 'Platzi',
       date: '2024',
@@ -58,7 +58,7 @@ export const certificates: Certificate[] = [
     },
     en: {
       id: 1,
-      name: 'C# Course',
+      name: 'C# Fundamentals',
       category: 'Software Development',
       institution: 'Platzi',
       date: '2024',
@@ -95,7 +95,7 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 3,
-      name: 'Curso de JavaScript',
+      name: 'Fundamentos de JavaScript',
       category: 'Desarrollo Backend',
       institution: 'Coderhouse',
       date: '2023',
@@ -106,7 +106,7 @@ export const certificates: Certificate[] = [
     },
     en: {
       id: 3,
-      name: 'JavaScript Course',
+      name: 'JavaScript Fundamentals',
       category: 'Backend Development',
       institution: 'Coderhouse',
       date: '2023',
@@ -191,7 +191,7 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 7,
-      name: 'Curso de SQL',
+      name: 'Fundamentos de SQL',
       category: 'Base de Datos',
       institution: 'Coderhouse',
       date: '2023',
@@ -202,7 +202,7 @@ export const certificates: Certificate[] = [
     },
     en: {
       id: 7,
-      name: 'SQL Course',
+      name: 'SQL Fundamentals',
       category: 'Database',
       institution: 'Coderhouse',
       date: '2023',
@@ -210,6 +210,30 @@ export const certificates: Certificate[] = [
         'With this course, I delved into the world of relational databases, learning to create, modify, and query databases with SQL. Additionally, we explored join queries, subqueries, stored procedures, triggers, and functions.',
       link: 'https://www.coderhouse.com/ar/certificados/64802be501d4fc0002bc25d0?lang=en',
       logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
+    },
+  },
+  {
+    es: {
+      id: 8,
+      name: 'Curso POO con C#',
+      category: 'Desarrollo de Software',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'En este curso aprendí los fundamentos de la programación orientada a objetos con C#. Aprendí a trabajar con clases, interfaces, herencia, polimorfismo, modificadores de acceso, y a aplicar los principios SOLID en mis proyectos.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/8036-c-sharp-poo/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+    en: {
+      id: 8,
+      name: 'OOP with C# Course',
+      category: 'Software Development',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'In this course, I learned the fundamentals of object-oriented programming with C#. I learned to work with classes, interfaces, inheritance, polymorphism, access modifiers, and apply SOLID principles in my projects.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/8036-c-sharp-poo/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
     },
   },
 ];
