@@ -301,6 +301,43 @@ export const skills: Skill[] = [
           ],
         },
         {
+          id: 101,
+          name: '.NET',
+          description:
+            'Desarrollo aplicaciones en .NET con una sólida comprensión de sus fundamentos. He aprendido a instalar paquetes externos con NuGet, explorar la estructura de un proyecto en .NET, identificar las diferencias entre .NET, .NET Core y .NET Framework, y dominar las bases de .NET.',
+          img: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
+          subSkills: [
+            {
+              id: 102,
+              name: 'Instalación de Paquetes con NuGet',
+              description:
+                'Capacidad para instalar y gestionar paquetes externos utilizando NuGet.',
+              subSkills: [],
+            },
+            {
+              id: 103,
+              name: 'Estructura de Proyectos en .NET',
+              description:
+                'Habilidad para explorar y comprender la estructura de proyectos en .NET.',
+              subSkills: [],
+            },
+            {
+              id: 104,
+              name: 'Diferencias entre .NET, .NET Core y .NET Framework',
+              description:
+                'Conocimiento para identificar y trabajar con las diferencias entre .NET, .NET Core y .NET Framework.',
+              subSkills: [],
+            },
+            {
+              id: 105,
+              name: 'Bases de .NET',
+              description:
+                'Dominio de los conceptos básicos y fundamentos de .NET.',
+              subSkills: [],
+            },
+          ],
+        },
+        {
           id: 3,
           name: 'Base de Datos',
           description:
@@ -466,6 +503,43 @@ export const skills: Skill[] = [
           ],
         },
         {
+          id: 101,
+          name: '.NET',
+          description:
+            'Development of applications in .NET with a solid understanding of its fundamentals. I have learned to install external packages with NuGet, explore the structure of a project in .NET, identify the differences between .NET, .NET Core, and .NET Framework, and master the basics of .NET.',
+          img: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
+          subSkills: [
+            {
+              id: 102,
+              name: 'NuGet Package Installation',
+              description:
+                'Ability to install and manage external packages using NuGet.',
+              subSkills: [],
+            },
+            {
+              id: 103,
+              name: '.NET Project Structure',
+              description:
+                'Skill to explore and understand project structures in .NET.',
+              subSkills: [],
+            },
+            {
+              id: 104,
+              name: 'Differences between .NET, .NET Core, and .NET Framework',
+              description:
+                'Knowledge to identify and work with the differences between .NET, .NET Core, and .NET Framework.',
+              subSkills: [],
+            },
+            {
+              id: 105,
+              name: '.NET Fundamentals',
+              description:
+                'Mastery of basic concepts and fundamentals of .NET.',
+              subSkills: [],
+            },
+          ],
+        },
+        {
           id: 3,
           name: 'Database',
           description:
@@ -518,6 +592,7 @@ export const skills: Skill[] = [
             },
           ],
         },
+
         {
           id: 7,
           name: 'Postman',

@@ -176,4 +176,26 @@ export const certificates: Certificate[] = [
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
     },
   },
+  {
+    es: {
+      id: 7,
+      name: 'Fundamentos de .NET',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'En este curso aprendí a instalar paquetes externos con NuGet, explorar la estructura de un proyecto en .NET, identificar las diferencias entre .NET, .NET Core y .NET Framework, y aprender las bases de .NET.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+    en: {
+      id: 7,
+      name: '.NET Fundamentals',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'In this course, I learned to install external packages with NuGet, explore the structure of a project in .NET, identify the differences between .NET, .NET Core, and .NET Framework, and learn the basics of .NET.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+  },
 ];
