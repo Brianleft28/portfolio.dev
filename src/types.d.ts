@@ -40,6 +40,7 @@ interface CertificateDetails {
   id: number;
   name: string;
   institution: string;
+  category: string;
   date: string;
   description: string;
   link: string;

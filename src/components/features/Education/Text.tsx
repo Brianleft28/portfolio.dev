@@ -47,39 +47,67 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 1,
-      name: 'Curso de SQL',
-      institution: 'Coderhouse',
-      date: '2023',
+      name: 'Curso de C#',
+      category: 'Desarrollo de Software',
+      institution: 'Platzi',
+      date: '2024',
       description:
-        'Con este curso me adentré en el mundo de las bases de datos relacionales, aprendiendo a crear, modificar, consultar bases de datos con SQL. Además, nos adentramos en las consultas join, subconsultas, procedimientos almacenados, triggers y funciones.',
-      link: 'https://www.coderhouse.com/ar/certificados/64802be501d4fc0002bc25d0?lang=',
-      logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
+        'En este curso aprendí los fundamentos de C#, un lenguaje de programación orientado a objetos desarrollado por Microsoft. Aprendí a utilizar C# en proyectos de consola, a trabajar con clases, interfaces, y a utilizar librerías y namespaces.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
     },
     en: {
       id: 1,
-      name: 'SQL Course',
-      institution: 'Coderhouse',
-      date: '2023',
+      name: 'C# Course',
+      category: 'Software Development',
+      institution: 'Platzi',
+      date: '2024',
       description:
-        'With this course, I delved into the world of relational databases, learning to create, modify, and query databases with SQL. Additionally, we explored join queries, subqueries, stored procedures, triggers, and functions.',
-      link: 'https://www.coderhouse.com/ar/certificados/64802be501d4fc0002bc25d0?lang=en',
-      logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
+        'In this course, I learned the fundamentals of C#, an object-oriented programming language developed by Microsoft. I learned to use C# in console projects, work with classes, interfaces, and use libraries and namespaces.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
     },
   },
   {
     es: {
       id: 2,
+      name: 'Fundamentos de .NET',
+      category: 'Desarrollo de Software',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'En este curso aprendí a instalar paquetes externos con NuGet, explorar la estructura de un proyecto en .NET, identificar las diferencias entre .NET, .NET Core y .NET Framework, y aprender las bases de .NET.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+    en: {
+      id: 2,
+      name: '.NET Fundamentals',
+      category: 'Software Development',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'In this course, I learned to install external packages with NuGet, explore the structure of a project in .NET, identify the differences between .NET, .NET Core, and .NET Framework, and learn the basics of .NET.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+  },
+  {
+    es: {
+      id: 3,
       name: 'Curso de JavaScript',
+      category: 'Desarrollo Backend',
       institution: 'Coderhouse',
       date: '2023',
       description:
-        'Este curso me permitió adquirir conocimientos básicos de JavaScript, aprendiendo a manipular el DOM, eventos, formularios, validaciones, y a realizar peticiones a servidores. Además, aprendí a utilizar AJAX, JSON, y a trabajar con APIs.',
+        'En este curso aprendí los fundamentos de JavaScript aplicados al desarrollo backend. Aprendí a crear servidores utilizando Node.js, gestionar bases de datos con MongoDB, y desarrollar APIs RESTful. También exploré conceptos avanzados como asincronía, promesas y manejo de errores.',
       link: 'https://www.coderhouse.com/ar/certificados/65872c133ddef257d943b1b5?lang=',
       logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
     },
     en: {
-      id: 2,
+      id: 3,
       name: 'JavaScript Course',
+      category: 'Backend Development',
       institution: 'Coderhouse',
       date: '2023',
       description:
@@ -90,30 +118,9 @@ export const certificates: Certificate[] = [
   },
   {
     es: {
-      id: 3,
-      name: 'Creación de aplicaciones de JavaScript con Node.js',
-      description:
-        'En este curso aprendí a crear aplicaciones de JavaScript con Node.js, utilizando Express, fs,  y otras tecnologías. Aprendí a crear servidores, rutas, controladores, y a conectar la aplicación con una base de datos MongoDB.',
-      institution: 'Microsoft',
-      date: '2024',
-      link: 'https://learn.microsoft.com/es-es/training/certificates/7b7b7b7b?lang=es',
-      logo: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_logo_icon_170957.png',
-    },
-    en: {
-      id: 3,
-      name: 'Creating JavaScript applications with Node.js',
-      description:
-        'In this course, I learned to create JavaScript applications with Node.js, using Express, fs, and other technologies. I learned to create servers, routes, controllers, and connect the application to a database.',
-      institution: 'Microsoft',
-      date: '2024',
-      link: 'https://learn.microsoft.com/es-es/training/certificates/7b7b7b7b?lang=en',
-      logo: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_logo_icon_170957.png',
-    },
-  },
-  {
-    es: {
       id: 4,
       name: 'Fundamentos de TypeScript',
+      category: 'Desarrollo Backend',
       institution: 'Platzi',
       date: '2024',
       description:
@@ -124,6 +131,7 @@ export const certificates: Certificate[] = [
     en: {
       id: 4,
       name: 'TypeScript Fundamentals',
+      category: 'Backend Development',
       institution: 'Platzi',
       date: '2024',
       description:
@@ -137,6 +145,7 @@ export const certificates: Certificate[] = [
       id: 5,
       name: 'Typescript: Tipos Avanzados y Funciones',
       institution: 'Platzi',
+      category: 'Desarrollo Backend',
       date: '2024',
       description:
         "En este curso aprendí a utilizar tipos avanzados en TypeScript. A crear Interfaces complejas, utility types para la creación de DTO's, y a trabajar con funciones, genéricos, y decoradores. Además, aprendí a utilizar TypeScript en proyectos backend.",
@@ -146,6 +155,7 @@ export const certificates: Certificate[] = [
     en: {
       id: 5,
       name: 'Typescript: Advanced Types and Functions',
+      category: 'Backend Development',
       institution: 'Platzi',
       date: '2024',
       description:
@@ -157,45 +167,49 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 6,
-      name: 'Curso de C#',
-      institution: 'Platzi',
-      date: '2024',
+      name: 'Creación de aplicaciones de JavaScript con Node.js',
+      category: 'Desarrollo Backend',
       description:
-        'En este curso aprendí los fundamentos de C#, un lenguaje de programación orientado a objetos desarrollado por Microsoft. Aprendí a utilizar C# en proyectos de consola, a trabajar con clases, interfaces, y a utilizar librerías y namespaces.',
-      link: 'https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+        'En este curso aprendí a crear aplicaciones de JavaScript con Node.js, utilizando Express, fs,  y otras tecnologías. Aprendí a crear servidores, rutas, controladores, y a conectar la aplicación con una base de datos MongoDB.',
+      institution: 'Microsoft',
+      date: '2024',
+      link: 'https://learn.microsoft.com/es-es/training/certificates/7b7b7b7b?lang=es',
+      logo: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_logo_icon_170957.png',
     },
     en: {
       id: 6,
-      name: 'C# Course',
-      institution: 'Platzi',
-      date: '2024',
+      name: 'Creating JavaScript applications with Node.js',
+      category: 'Backend Development',
       description:
-        'In this course, I learned the fundamentals of C#, an object-oriented programming language developed by Microsoft. I learned to use C# in console projects, work with classes, interfaces, and use libraries and namespaces.',
-      link: 'https://platzi.com/p/contactobrianleft/curso/3086-csharp/diploma/detalle/',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+        'In this course, I learned to create JavaScript applications with Node.js, using Express, fs, and other technologies. I learned to create servers, routes, controllers, and connect the application to a database.',
+      institution: 'Microsoft',
+      date: '2024',
+      link: 'https://learn.microsoft.com/es-es/training/certificates/7b7b7b7b?lang=en',
+      logo: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_logo_icon_170957.png',
     },
   },
   {
     es: {
       id: 7,
-      name: 'Fundamentos de .NET',
-      institution: 'Platzi',
-      date: '2024',
+      name: 'Curso de SQL',
+      category: 'Base de Datos',
+      institution: 'Coderhouse',
+      date: '2023',
       description:
-        'En este curso aprendí a instalar paquetes externos con NuGet, explorar la estructura de un proyecto en .NET, identificar las diferencias entre .NET, .NET Core y .NET Framework, y aprender las bases de .NET.',
-      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+        'Con este curso me adentré en el mundo de las bases de datos relacionales, aprendiendo a crear, modificar, consultar bases de datos con SQL. Además, nos adentramos en las consultas join, subconsultas, procedimientos almacenados, triggers y funciones.',
+      link: 'https://www.coderhouse.com/ar/certificados/64802be501d4fc0002bc25d0?lang=',
+      logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
     },
     en: {
       id: 7,
-      name: '.NET Fundamentals',
-      institution: 'Platzi',
-      date: '2024',
+      name: 'SQL Course',
+      category: 'Database',
+      institution: 'Coderhouse',
+      date: '2023',
       description:
-        'In this course, I learned to install external packages with NuGet, explore the structure of a project in .NET, identify the differences between .NET, .NET Core, and .NET Framework, and learn the basics of .NET.',
-      link: 'https://platzi.com/p/contactobrianleft/curso/2883-fundamentos-net/diploma/detalle/',
-      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+        'With this course, I delved into the world of relational databases, learning to create, modify, and query databases with SQL. Additionally, we explored join queries, subqueries, stored procedures, triggers, and functions.',
+      link: 'https://www.coderhouse.com/ar/certificados/64802be501d4fc0002bc25d0?lang=en',
+      logo: 'https://play-lh.googleusercontent.com/ERS3FO4r5pBmEErThABfMewY7MRsmWta86UMD07brYTJIgzYg6SUIUOGBz6gx5vouw',
     },
   },
 ];
