@@ -288,7 +288,7 @@ export const skills: Skill[] = [
           id: 100,
           name: 'C#',
           description:
-            'Desarrollo aplicaciones de consola en C# con una buena base en los fundamentos de POO y estructuras de datos.',
+            'Desarrollo aplicaciones de consola y aplicaciones en .NET con una sólida base en los fundamentos de POO y estructuras de datos, y un enfoque en buenas prácticas de código limpio.',
           img: 'https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp',
           subSkills: [
             {
@@ -298,45 +298,73 @@ export const skills: Skill[] = [
                 'Manejo de clases, objetos, herencia, polimorfismo, encapsulamiento y abstracción en C#.',
               subSkills: [],
             },
+            {
+              id: 102,
+              name: 'Código Limpio',
+              description:
+                'Aplicación de principios de código limpio en C# para asegurar soluciones mantenibles y legibles.',
+              subSkills: [],
+            },
+            {
+              id: 103,
+              name: 'Manejo de Datos con LINQ',
+              description:
+                'Uso de LINQ en C# para manipular y consultar datos de manera eficiente.',
+              subSkills: [],
+            },
+            {
+              id: 104,
+              name: 'Principios SOLID',
+              description:
+                'Aplicación de los principios SOLID para desarrollar software más robusto y escalable en C# y .NET.',
+              subSkills: [],
+            },
           ],
         },
         {
           id: 101,
           name: '.NET',
           description:
-            'Desarrollo aplicaciones en .NET con una sólida comprensión de sus fundamentos. He aprendido a instalar paquetes externos con NuGet, explorar la estructura de un proyecto en .NET, identificar las diferencias entre .NET, .NET Core y .NET Framework, y dominar las bases de .NET.',
+            'Desarrollo de aplicaciones robustas utilizando .NET, con una comprensión sólida de sus principios fundamentales, incluyendo ASP.NET Core y Entity Framework. Manejo de arquitecturas avanzadas como Clean Architecture.',
           img: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
           subSkills: [
             {
               id: 102,
-              name: 'Instalación de Paquetes con NuGet',
+              name: 'ASP.NET Core',
               description:
-                'Capacidad para instalar y gestionar paquetes externos utilizando NuGet.',
+                'Desarrollo de aplicaciones web con ASP.NET Core, utilizando sus características avanzadas para crear APIs robustas.',
               subSkills: [],
             },
             {
               id: 103,
-              name: 'Estructura de Proyectos en .NET',
+              name: 'Entity Framework',
               description:
-                'Habilidad para explorar y comprender la estructura de proyectos en .NET.',
+                'Uso de Entity Framework para trabajar con bases de datos de manera eficiente en aplicaciones .NET.',
               subSkills: [],
             },
             {
               id: 104,
-              name: 'Diferencias entre .NET, .NET Core y .NET Framework',
+              name: 'Manejo de Paquetes con NuGet',
               description:
-                'Conocimiento para identificar y trabajar con las diferencias entre .NET, .NET Core y .NET Framework.',
+                'Capacidad para instalar y gestionar paquetes externos utilizando NuGet en proyectos .NET.',
               subSkills: [],
             },
             {
               id: 105,
-              name: 'Bases de .NET',
+              name: 'Clean Architecture',
               description:
-                'Dominio de los conceptos básicos y fundamentos de .NET.',
+                'Implementación de Clean Architecture en aplicaciones .NET para una mejor organización y mantenibilidad del código.',
+              subSkills: [],
+            },
+            {
+              id: 106,
+              name: 'Diferencias entre .NET, .NET Core y .NET Framework',
+              description:
+                'Conocimiento de las diferencias clave entre las distintas versiones de .NET y su aplicabilidad en diferentes proyectos.',
               subSkills: [],
             },
           ],
-        },
+        },        
         {
           id: 3,
           name: 'Base de Datos',
@@ -358,6 +386,13 @@ export const skills: Skill[] = [
                 'Diseño de bases de datos NoSQL con MongoDB, utilizando colecciones y documentos para almacenar datos de forma flexible y escalable. Implemento consultas y operaciones CRUD en MongoDB, siguiendo buenas prácticas de modelado de datos y rendimiento. Además, utilizo índices y agregaciones para optimizar consultas y mejorar la eficiencia de la base de datos.',
               subSkills: [],
             },
+            {
+              id: 200,
+              name: 'Microsoft SQL Server',
+              description:
+                'Gestión de bases de datos relacionales con Microsoft SQL Server, utilizando consultas T-SQL para crear, leer, actualizar y eliminar datos. Implemento esquemas normalizados y relaciones entre tablas para garantizar la integridad y consistencia de los datos. Además, utilizo índices, vistas, joins y transacciones para optimizar consultas y mejorar el rendimiento de la base de datos.',
+              subSkills: [],
+            }
           ],
         },
         {
@@ -490,14 +525,35 @@ export const skills: Skill[] = [
           id: 100,
           name: 'C#',
           description:
-            'Development of console applications in C# with a good foundation in OOP fundamentals and data structures.',
+            'Development of console applications and applications in .NET with a solid foundation in OOP fundamentals and data structures, and a focus on good practices of clean code.',
           img: 'https://banner2.cleanpng.com/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-1713945971245.webp',
           subSkills: [
             {
               id: 101,
               name: 'OOP Fundamentals',
               description:
-                'Handling classes, objects, inheritance, polymorphism, encapsulation, and abstraction in C#.',
+                'Handling of classes, objects, inheritance, polymorphism, encapsulation, and abstraction in C#.',
+              subSkills: [],
+            },
+            {
+              id: 102,
+              name: 'Clean Code',
+              description:
+                'Application of clean code principles in C# to ensure maintainable and readable solutions.',
+              subSkills: [],
+            },
+            {
+              id: 103,
+              name: 'Data Handling with LINQ',
+              description:
+                'Use of LINQ in C# to manipulate and query data efficiently.',
+              subSkills: [],
+            },
+            {
+              id: 104,
+              name: 'SOLID Principles',
+              description:
+                'Application of SOLID principles to develop more robust and scalable software in C# and .NET.',
               subSkills: [],
             },
           ],
@@ -506,35 +562,42 @@ export const skills: Skill[] = [
           id: 101,
           name: '.NET',
           description:
-            'Development of applications in .NET with a solid understanding of its fundamentals. I have learned to install external packages with NuGet, explore the structure of a project in .NET, identify the differences between .NET, .NET Core, and .NET Framework, and master the basics of .NET.',
+            'Development of robust applications using .NET, with a solid understanding of its fundamental principles, including ASP.NET Core and Entity Framework. Handling of advanced architectures like Clean Architecture.',
           img: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
           subSkills: [
             {
               id: 102,
-              name: 'NuGet Package Installation',
+              name: 'ASP.NET Core',
               description:
-                'Ability to install and manage external packages using NuGet.',
+                'Development of web applications with ASP.NET Core, using its advanced features to create robust APIs.',
               subSkills: [],
             },
             {
               id: 103,
-              name: '.NET Project Structure',
+              name: 'Entity Framework',
               description:
-                'Skill to explore and understand project structures in .NET.',
+                'Use of Entity Framework to work with databases efficiently in .NET applications.',
               subSkills: [],
             },
             {
               id: 104,
-              name: 'Differences between .NET, .NET Core, and .NET Framework',
+              name: 'Package Management with NuGet',
               description:
-                'Knowledge to identify and work with the differences between .NET, .NET Core, and .NET Framework.',
+                'Ability to install and manage external packages using NuGet in .NET projects.',
               subSkills: [],
             },
             {
               id: 105,
-              name: '.NET Fundamentals',
+              name: 'Clean Architecture',
               description:
-                'Mastery of basic concepts and fundamentals of .NET.',
+                'Implementation of Clean Architecture in .NET applications for better code organization and maintainability.',
+              subSkills: [],
+            },
+            {
+              id: 106,
+              name: '.NET, .NET Core, and .NET Framework Differences',
+              description:
+                'Knowledge of key differences between different versions of .NET and their applicability in different projects.',
               subSkills: [],
             },
           ],
