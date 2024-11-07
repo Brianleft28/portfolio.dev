@@ -6,39 +6,24 @@ export const texts = {
       <>
         <div className="px-5">
           <p>
-            I am a software developer specialized in creating scalable and
-            efficient applications. I use{' '}
-            <span className="font-bold">Node.js</span>,{' '}
-            <span className="font-bold">TypeScript</span>, and{' '}
-            <span className="font-bold">Express</span> to build{' '}
-            <span className="font-bold">robust APIs</span>, applying{' '}
-            <span className="font-bold">OOP</span> and design patterns such as{' '}
-            <span className="font-bold">Onion Architecture</span> and{' '}
-            <span className="font-bold">Clean Architecture</span>.
+            I am a software developer with experience in creating scalable and efficient applications. I use{' '}
+            <span className="font-bold">C#</span> and <span className="font-bold">.NET</span> to develop robust solutions, applying{' '}
+            <span className="font-bold">OOP</span> principles and architectures based on <span className="font-bold">Clean Architecture</span>.
           </p>
           <p>
-            Additionally, I have knowledge in{' '}
-            <span className="font-bold">frontend frameworks</span> such as{' '}
-            <span className="font-bold">Svelte</span>,{' '}
-            <span className="font-bold">React</span>, and{' '}
-            <span className="font-bold">SvelteKit</span>, which allows me to
-            develop <span className="font-bold">landing pages</span> and{' '}
-            <span className="font-bold">modern user interfaces</span>. However,
-            my main focus remains on developing{' '}
-            <span className="font-bold">robust backend solutions</span> and{' '}
-            <span className="font-bold">scalable</span> systems, with experience
-            in both relational and non-relational databases.
+            Additionally, I work with <span className="font-bold">Node.js</span> and <span className="font-bold">TypeScript</span> to design{' '}
+            <span className="font-bold">high-performance APIs</span>, with a focus on creating clean and well-structured code.
           </p>
           <p>
-            Recently, I have been delving deeper into object-oriented
-            programming (OOP) in <span className="font-bold">C#</span> and{' '}
-            <span className="font-bold">.NET</span>, as well as advanced
-            architectures, which allows me to expand my skills and knowledge in
-            software development.
+            My main objective is to develop backend solutions that optimize administrative processes and improve efficiency, applying best practices at every stage of development.
+          </p>
+          <p>
+            I also have experience with <span className="font-bold">Svelte</span>, <span className="font-bold">React</span>, and{' '}
+            <span className="font-bold">SvelteKit</span> for developing modern interfaces. However, my focus and passion remain in the design and implementation of scalable backend solutions.
           </p>
         </div>
       </>
-    ),
+    ),    
     buttons: {
       contact: {
         label: 'Contact Me',
@@ -50,18 +35,20 @@ export const texts = {
       },
       cv: {
         label: 'Download CV',
-        href: 'https://drive.google.com/file/d/1sySu6dR5ylVG6WjvX5lGpONloLDMO5YV/view',
+        href: 'https://drive.google.com/file/d/1xd6Ei7uihmoT1QFCS4-LImjEbzA_pJaM/view?usp=sharing',
       },
     },
     subtitle: {
       words: [
-        'Node.js Developer',
-        'TypeScript Developer',
-        '.NET Developer',
-        'Teamwork',
-        'Scalable Solutions',
+        'Software Developer',
+        'C# | .NET | Node.js',
+        'TypeScript Specialist',
+        'Scalable Architectures',
+        'Clean & Efficient Code',
+        'Robust Solutions',
       ],
-    },
+    }
+    
   },
   es: {
     greeting: 'Hola, soy',
@@ -70,39 +57,30 @@ export const texts = {
       <>
         <div className="px-5">
           <p>
-            Soy un desarrollador de software especializado en la creación de
-            aplicaciones escalables y eficientes. Utilizo{' '}
-            <span className="font-bold">Node.js</span>,{' '}
-            <span className="font-bold">TypeScript</span> y{' '}
-            <span className="font-bold">Express</span> para construir{' '}
-            <span className="font-bold">APIs</span> robustas, aplicando{' '}
-            <span className="font-bold">POO</span> y patrones de diseño como{' '}
-            <span className="font-bold">Onion Architecture</span> y{' '}
-            <span className="font-bold">Clean Architecture</span>.
+            Soy un desarrollador de software con experiencia en la creación de aplicaciones
+            escalables y eficientes. Utilizo <span className="font-bold">C#</span> y{' '}
+            <span className="font-bold">.NET</span> para el desarrollo de soluciones robustas,
+            aplicando principios de <span className="font-bold">POO</span> y arquitecturas basadas
+            en <span className="font-bold">Clean Architecture</span>.
           </p>
           <p>
-            Tambien, cuento con conocimientos en{' '}
-            <span className="font-bold">frameworks frontend</span> como{' '}
-            <span className="font-bold">Svelte</span>,{' '}
-            <span className="font-bold">React</span> y{' '}
-            <span className="font-bold">SvelteKit</span>, lo que me permite
-            desarrollar <span className="font-bold">landing pages</span> e{' '}
-            <span className="font-bold">interfaces de usuario modernas</span>.
-            Sin embargo, mi enfoque principal sigue siendo el desarrollo de{' '}
-            <span className="font-bold">soluciones backend robustas</span> y{' '}
-            <span className="font-bold">escalables</span>, con experiencia en
-            bases de datos relacionales y no relacionales.
+            Además, trabajo con <span className="font-bold">Node.js</span> y{' '}
+            <span className="font-bold">TypeScript</span> para diseñar <span className="font-bold">APIs</span>
+            de alto rendimiento, manteniendo un enfoque en la creación de código limpio y bien estructurado.
           </p>
           <p>
-            Recientemente, he estado profundizando en la programación orientada
-            a objetos (POO) en <span className="font-bold">C#</span> y{' '}
-            <span className="font-bold">.NET</span>, así como en arquitecturas
-            avanzadas, lo que me permite ampliar mis habilidades y conocimientos
-            en el desarrollo de software.
+            Mi objetivo principal es desarrollar soluciones backend que optimicen procesos administrativos
+            y mejoren la eficiencia, aplicando buenas prácticas en cada fase del desarrollo.
+          </p>
+          <p>
+            También tengo experiencia en <span className="font-bold">Svelte</span> y {' '}
+            <span className="font-bold">React</span> para el
+            desarrollo de interfaces modernas, aunque mi enfoque y pasión continúan siendo el diseño y la
+            implementación de soluciones backend escalables.
           </p>
         </div>
       </>
-    ),
+    ),    
     buttons: {
       contact: {
         label: 'Contáctame',
@@ -114,18 +92,19 @@ export const texts = {
       },
       cv: {
         label: 'Descargar CV',
-        href: 'https://drive.google.com/file/d/1sySu6dR5ylVG6WjvX5lGpONloLDMO5YV/view',
+        href: 'https://drive.google.com/file/d/1xd6Ei7uihmoT1QFCS4-LImjEbzA_pJaM/view?usp=sharing',
       },
     },
     subtitle: {
       words: [
-        'Desarrollador Node.js',
-        'Desarrollador TypeScript',
-        'Desarrollador Semi-Senior',
-        'Trabajo en equipo',
-        'Soluciones escalables',
+        'Desarrollador de Software',
+        'C# | .NET | Node.js',
+        'Especialista en TypeScript',
+        'Arquitecturas escalables',
+        'Código limpio y eficiente',
+        'Soluciones robustas',
       ],
-    },
+    }
   },
 };
 

@@ -215,7 +215,7 @@ export const certificates: Certificate[] = [
   {
     es: {
       id: 8,
-      name: 'Curso POO con C#',
+      name: 'Curso de POO con C#',
       category: 'Desarrollo de Software',
       institution: 'Platzi',
       date: '2024',
@@ -236,4 +236,52 @@ export const certificates: Certificate[] = [
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
     },
   },
+  {
+    es: {
+      id: 9,
+      name: 'Buenas Prácticas y Código Limpio en C#',
+      category: 'Desarrollo de Software',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'En este curso aprendí a aplicar buenas prácticas y a escribir código limpio en C#. Aprendí a utilizar patrones de diseño, principios SOLID, comentarios ,y a aplicar técnicas de refactorización para mejorar la calidad de mi código.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/8037-c-sharp-buenas-practicas/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    },
+    en: {
+      id: 9,
+      name: 'Best Practices and Clean Code in C#',
+      category: 'Software Development',
+      institution: 'Platzi',
+      date: '2024',
+      description:
+        'In this course, I learned to apply best practices and write clean code in C#. I learned to use design patterns, SOLID principles, comments, and apply refactoring techniques to improve the quality of my code.',
+      link: 'https://platzi.com/p/contactobrianleft/curso/8037-c-sharp-buenas-practicas/diploma/detalle/',
+      logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+    }
+    },
+      {
+        es: {
+          id: 10,
+          name: 'Manejo de Datos en C# con LINQ',
+          category: 'Desarrollo de Software',
+          institution: 'Platzi',
+          date: '2024',
+          description:
+          'En este curso aprendí a manejar datos en C# utilizando LINQ. Aprendí a realizar consultas a colecciones, bases de datos, y a trabajar con LINQ to SQL, LINQ to XML, y LINQ to Entities.',
+          link: 'https://platzi.com/p/contactobrianleft/curso/4263-linq/diploma/detalle/',
+          logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+        },
+        en: {
+          id: 10,
+          name: 'Data Handling in C# with LINQ',
+          category: 'Software Development',
+        institution: 'Platzi',
+        date: '2024',
+        description:
+        'In this course, I learned to handle data in C# using LINQ. I learned to make queries to collections, databases, and work with LINQ to SQL, LINQ to XML, and LINQ to Entities.',
+        link: 'https://platzi.com/p/contactobrianleft/curso/4263-linq/diploma/detalle/',
+        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F3mcx5zc3M0Wv5k0tA9f7I_-90MDyFTWpg&s',
+      }
+    }
 ];
