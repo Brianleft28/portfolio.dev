@@ -29,6 +29,11 @@ import migracion from '../../../img/migracion/migracion.png';
 import migracion1 from '../../../img/migracion/migracion1.png';
 import migracion2 from '../../../img/migracion/migracion2.png';
 
+import scrap from '../../../img/scrap/01.png';
+import scrap1 from '../../../img/scrap/02.png';
+import scrap2 from '../../../img/scrap/03.png';
+import scrap3 from '../../../img/scrap/04.png';
+
 export const texts = {
   en: {
     title: {
@@ -196,6 +201,30 @@ export const projects: Project[] = [
       id: 3,
       key: 3,
       category: 'backend',
+      title: 'Scraping de Sitio Web Estático',
+      description: `El proyecto Book Scrapper es una herramienta desarrollada en TypeScript y Node que permite extraer información de libros desde la página Books to Scrape. Utiliza bibliotecas como axios para realizar solicitudes HTTP, cheerio para manipular y extraer datos del DOM, e inquirer para crear un menú interactivo en la consola. Los datos recopilados pueden ser exportados en formatos CSV, Excel y JSON. La aplicación permite buscar libros por categoría, extraer información detallada de cada libro, y exportar los datos a un archivo. Esta herramienta es útil para recopilar información de libros de forma rápida y eficiente, y puede ser utilizada para diversos propósitos, como análisis de datos, investigación, y más.`,
+      href: 'https://www.google.com',
+      github: 'https://github.com/Brianleft28/book_scrapper',
+      badge: ['Node', 'TypeScript', 'Axios', 'Cheerio', 'Inquirer'],
+      img: [scrap, scrap1, scrap2, scrap3]
+    },
+    en: {
+      id: 3,
+      key: 3,
+      category: 'backend',
+      title: 'Static Website Scraping',
+      description: `The Book Scrapper project is a tool developed in TypeScript and Node that allows for extracting book information from the Books to Scrape page. It uses libraries like axios to make HTTP requests, cheerio to manipulate and extract data from the DOM, and inquirer to create an interactive menu in the console. The collected data can be exported in CSV, Excel, and JSON formats. The application allows for searching books by category, extracting detailed information from each book, and exporting the data to a file. This tool is useful for quickly and efficiently collecting book information and can be used for various purposes, such as data analysis, research, and more.`,
+      href: 'https://www.google.com',
+      github: 'https://github.com/Brianleft28/book_scrapper',
+      badge: ['Node', 'TypeScript', 'Axios', 'Cheerio', 'Inquirer'],
+      img: [scrap, scrap1, scrap2, scrap3]
+    }
+  },
+  {
+    es: {
+      id: 4,
+      key: 4,
+      category: 'backend',
       title: 'Discord Bot',
       description: `
             Este bot de Discord está diseñado para proporcionar una amplia gama
@@ -212,8 +241,8 @@ export const projects: Project[] = [
     },
 
     en: {
-      id: 3,
-      key: 3,
+      id: 4,
+      key: 4,
       category: 'backend',
       title: 'Discord Bot',
       description: `
@@ -232,8 +261,8 @@ export const projects: Project[] = [
   },
   {
     es: {
-      id: 4,
-      key: 4,
+      id: 5,
+      key: 5,
       category: 'frontend',
       title: 'Memorandum Digital',
       description: `El proyecto para la Secretaría de Innovación de Ituzaingó ofrece una solución tecnológica que digitaliza y optimiza la gestión de los procesos administrativos internos. Desarrollado con Svelte, TypeScript, Node.js, Express y SQL.
@@ -249,8 +278,8 @@ export const projects: Project[] = [
       img: [p1, p2, p3, p4, p5, p6, p7],
     },
     en: {
-      id: 4,
-      key: 4,
+      id: 5,
+      key: 5,
       category: 'frontend',
       title: 'Digital Memorandum',
       description: `
@@ -281,8 +310,8 @@ export const projects: Project[] = [
   },
   {
     es: {
-      id: 5,
-      key: 5,
+      id: 6,
+      key: 6,
       category: 'frontend',
       title: 'Portfolio De Fotografía',
       description:
@@ -293,8 +322,8 @@ export const projects: Project[] = [
       img: [fotografia, fotografia1, fotografia2, fotografia3],
     },
     en: {
-      id: 5,
-      key: 5,
+      id: 6,
+      key: 6,
       category: 'frontend',
       title: 'Photography Portfolio',
       description:
@@ -305,6 +334,6 @@ export const projects: Project[] = [
       img: [fotografia, fotografia1, fotografia2, fotografia3],
     },
   },
-  
+
   
 ];
