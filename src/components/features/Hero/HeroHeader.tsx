@@ -9,7 +9,7 @@ interface HeroHeaderProps {
 
 const HeroHeader: React.FC<HeroHeaderProps> = ({ lang }) => {
   return (
-    <CardHeader>
+    <CardHeader className='bg-gradient-to-br from-background via-content1 to-content2 rounded-e-2xl'>
       <div className="flex flex-col mx-auto">
         <h1 className="text-center md:text-start text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide leading-tight">
           {texts[lang].greeting}

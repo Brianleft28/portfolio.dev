@@ -7,7 +7,7 @@ interface SubtitleProps {
 
 const Subtitle: React.FC<SubtitleProps> = ({ lang }) => {
   return (
-    <div className="text-center mx-auto md:text-start text-sm md:text-xl font-secondary selection:bg-none hover:cursor-default tracking-widest  text-foreground font-semibold mt-2">
+    <div className="text-center mx-auto md:text-start text-sm md:text-xl font-secondary selection:bg-none hover:cursor-default tracking-widest  text-content3-foreground font-semibold mt-2">
       <Typewriter
         words={texts[lang].subtitle.words}
         loop={0}

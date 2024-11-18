@@ -4,33 +4,27 @@ export const texts = {
     name: ' Brian Benegas',
     description: (
       <>
-        <div className="px-5">
-          <p>
-            I am a software developer with experience in creating scalable and efficient applications. I use{' '}
-            <span className="font-bold">C#</span> and <span className="font-bold">.NET</span> to develop robust solutions, applying{' '}
-            <span className="font-bold">OOP</span> principles and architectures based on <span className="font-bold">Clean Architecture</span>.
-          </p>
-          <p>
-            Additionally, I work with <span className="font-bold">Node.js</span> and <span className="font-bold">TypeScript</span> to design{' '}
-            <span className="font-bold">high-performance APIs</span>, with a focus on creating clean and well-structured code.
-          </p>
-          <p>
-            My main objective is to develop backend solutions that optimize administrative processes and improve efficiency, applying best practices at every stage of development.
-          </p>
-          <p>
-            I also have experience with <span className="font-bold">Svelte</span>, <span className="font-bold">React</span>, and{' '}
-            <span className="font-bold">SvelteKit</span> for developing modern interfaces. However, my focus and passion remain in the design and implementation of scalable backend solutions.
-          </p>
-        </div>
+      <div className="px-3 md:px-12 py-4 text-foreground">
+        <p className="mb-2">
+        I'm a software developer with experience in creating scalable and efficient applications. I use <span className="font-bold text-secondary/70">Node.js</span> and <span className="font-bold text-secondary/70">TypeScript</span> to design high-performance <span className="font-bold text-secondary/70">APIs</span>, applying <span className="font-bold text-secondary/70">SOLID</span> principles and scalable architectures. I have the ability to work on projects ranging from <span className="font-bold text-secondary/70">web scraping</span> and console applications to run routines, to APIs with different architectures depending on the type of project.
+        </p>
+        <p className="mb-2">
+        I have solid knowledge in the fundamentals of <span className="font-bold text-secondary/70">OOP</span> and functional programming, allowing me to tackle complex problems with robust and well-structured solutions.
+        </p>
+        <p className="mb-4">
+        My main goal is to develop backend solutions that optimize administrative processes and improve efficiency, applying best practices in each phase of development.
+        </p>
+      </div>
       </>
-    ),    
+    ),
     buttons: {
       contact: {
         label: 'Contact Me',
         href: '/contact',
       },
       work: {
-        label: 'View my work',
+        label: 'View my work', 
+  
         href: '/projects',
       },
       cv: {
@@ -41,11 +35,11 @@ export const texts = {
     subtitle: {
       words: [
         'Software Developer',
-        'C# | .NET | Node.js',
-        'TypeScript Specialist',
+        'Node.js Developer',
+        'TypeScript Developer',
         'Scalable Architectures',
         'Clean & Efficient Code',
-        'Robust Solutions',
+        'Solution Architect',
       ],
     }
     
@@ -55,30 +49,18 @@ export const texts = {
     name: ' Brian Benegas',
     description: (
       <>
-        <div className="px-5">
-          <p>
-            Soy un desarrollador de software con experiencia en la creación de aplicaciones
-            escalables y eficientes. Utilizo <span className="font-bold">C#</span> y{' '}
-            <span className="font-bold">.NET</span> para el desarrollo de soluciones robustas,
-            aplicando principios de <span className="font-bold">POO</span> y arquitecturas basadas
-            en <span className="font-bold">Clean Architecture</span>.
-          </p>
-          <p>
-            Además, trabajo con <span className="font-bold">Node.js</span> y{' '}
-            <span className="font-bold">TypeScript</span> para diseñar <span className="font-bold">APIs</span>
-            de alto rendimiento, manteniendo un enfoque en la creación de código limpio y bien estructurado.
-          </p>
-          <p>
-            Mi objetivo principal es desarrollar soluciones backend que optimicen procesos administrativos
-            y mejoren la eficiencia, aplicando buenas prácticas en cada fase del desarrollo.
-          </p>
-          <p>
-            También tengo experiencia en <span className="font-bold">Svelte</span> y {' '}
-            <span className="font-bold">React</span> para el
-            desarrollo de interfaces modernas, aunque mi enfoque y pasión continúan siendo el diseño y la
-            implementación de soluciones backend escalables.
-          </p>
-        </div>
+      <div className="px-3 md:px-12 py-4 text-foreground">
+        <p className="mb-2">
+        Soy un desarrollador de software con experiencia en la creación de aplicaciones escalables y eficientes. Utilizo <span className="font-bold text-secondary/70">Node.js</span> y <span className="font-bold text-secondary/70">TypeScript</span> para diseñar <span className="font-bold text-secondary/70">APIs</span> de alto rendimiento, aplicando principios de <span className="font-bold text-secondary/70">SOLID</span> y arquitecturas escalables. Tengo la capacidad de trabajar en proyectos que van desde <span className="font-bold text-secondary/70">web scraping</span> y aplicaciones de consola para ejecutar rutinas, hasta APIs con distintas arquitecturas según el tipo de proyecto.
+        </p>
+        <p className="mb-2">
+        Poseo sólidos conocimientos en los fundamentos de la <span className="font-bold text-secondary/70">POO</span> y la programación funcional, lo que me permite abordar problemas complejos con soluciones robustas y bien estructuradas.
+        </p>
+        <p className="mb-4">
+        Mi objetivo principal es desarrollar soluciones backend que optimicen procesos administrativos y mejoren la eficiencia, aplicando buenas prácticas en cada fase del desarrollo.
+        </p>
+      </div>
+
       </>
     ),    
     buttons: {
@@ -98,11 +80,11 @@ export const texts = {
     subtitle: {
       words: [
         'Desarrollador de Software',
-        'C# | .NET | Node.js',
-        'Especialista en TypeScript',
-        'Arquitecturas escalables',
-        'Código limpio y eficiente',
-        'Soluciones robustas',
+        'Desarrollador Node.js',
+        'Desarrollador TypeScript',
+        'Arquitecturas Escalables',
+        'Código Limpio y Eficiente',
+        'Arquitecto de Soluciones',
       ],
     }
   },
