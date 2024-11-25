@@ -1,3 +1,4 @@
+import imgContact from '../../../img/contacto/contacto.png'
 export const text = [
   {
     es: {
@@ -14,6 +15,7 @@ export const text = [
       button: {
         sendEmail: 'Enviar',
       },
+      img: imgContact
     },
     en: {
       textCard: {
@@ -29,6 +31,7 @@ export const text = [
       button: {
         sendEmail: 'Send',
       },
+      img: imgContact
     },
   },
 ];

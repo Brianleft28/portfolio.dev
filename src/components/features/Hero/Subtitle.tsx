@@ -13,8 +13,8 @@ const Subtitle: React.FC<SubtitleProps> = ({ lang }) => {
         loop={0}
         cursor
         cursorStyle="|"
-        typeSpeed={65}
-        deleteSpeed={80}
+        typeSpeed={50}
+        deleteSpeed={65}
         delaySpeed={3000}
       />
     </div>

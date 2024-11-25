@@ -19,6 +19,7 @@ import RedesSociales from "./redes/RedesSociales";
 import ThemeController from "./thtmeController/ThemeController";
 import { ThemeContext } from "../../../context/Theme";
 import { LangContext } from "../../../context/Lang";
+import { useScroll } from "../../../context/Scroll";
 
 type Lang = "en" | "es";
 
@@ -29,6 +30,8 @@ interface MenuItem {
 }
 
 const Navbar = () => {
+
+  const { showNavbar } = useScroll();
   const { theme } = useContext(ThemeContext);
   const { lang } = useContext(LangContext);
 
@@ -83,7 +86,7 @@ const Navbar = () => {
 
   return (
     <NextUINavbar
-      className={`${theme} selection:bg-none`}
+    className={`${theme} fixed top-0 transition-transform duration-300 ease-soft-spring selection:bg-none ${showNavbar ? "-translate-x-full" : "translate-y-0"}`}
       disableAnimation={false}
       isBlurred={true}
       isBordered={false}
@@ -93,13 +96,11 @@ const Navbar = () => {
       <NavbarContent className="flex sm:flex lg:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
-
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand onClick={desactiveMenuItems}>
           <Logo />
         </NavbarBrand>
       </NavbarContent>
-
       {/* Navbar Content SM */}
       <NavbarContent
         onClick={desactiveMenuItems}
@@ -142,7 +143,6 @@ const Navbar = () => {
           <RedesSociales style="redes" />
         </NavbarItem>
         {/* DIVIDER Y THEME CONTROLLER */}
-
         <Divider
           className="w-0.5 h-7 bg-divider hidden lg:hidden xl:flex"
           orientation="vertical"
